@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YI8-J0-7og">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Lva-3H-o0P">
+            <objects>
+                <viewController id="YI8-J0-7og" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S4L-le-e5a"/>
+                        <viewControllerLayoutGuide type="bottom" id="ezm-yN-hLz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KTf-mg-yt4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arcReactor" translatesAutoresizingMaskIntoConstraints="NO" id="3A5-SR-70U"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5K-wh-gKr">
+                                <connections>
+                                    <action selector="uniBeamButtonTapped:" destination="YI8-J0-7og" eventType="touchUpInside" id="QtW-Xz-v6a"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uniBeamShadow" translatesAutoresizingMaskIntoConstraints="NO" id="q1X-Lk-hDO"/>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3A5-SR-70U" firstAttribute="leading" secondItem="U5K-wh-gKr" secondAttribute="leading" id="4UL-Er-2JC"/>
+                            <constraint firstAttribute="trailing" secondItem="U5K-wh-gKr" secondAttribute="trailing" id="GGy-DA-CCw"/>
+                            <constraint firstItem="U5K-wh-gKr" firstAttribute="top" secondItem="S4L-le-e5a" secondAttribute="bottom" id="Qm8-XL-iWm"/>
+                            <constraint firstItem="3A5-SR-70U" firstAttribute="bottom" secondItem="ezm-yN-hLz" secondAttribute="top" id="UtK-lu-NcY"/>
+                            <constraint firstItem="q1X-Lk-hDO" firstAttribute="leading" secondItem="KTf-mg-yt4" secondAttribute="leading" id="ZON-EV-bgl"/>
+                            <constraint firstItem="3A5-SR-70U" firstAttribute="top" secondItem="q1X-Lk-hDO" secondAttribute="top" id="bNq-ua-gBy"/>
+                            <constraint firstItem="3A5-SR-70U" firstAttribute="trailing" secondItem="q1X-Lk-hDO" secondAttribute="trailing" id="dmn-Ho-DWZ"/>
+                            <constraint firstItem="ezm-yN-hLz" firstAttribute="top" secondItem="U5K-wh-gKr" secondAttribute="bottom" id="i5F-qO-nKr"/>
+                            <constraint firstItem="q1X-Lk-hDO" firstAttribute="top" secondItem="KTf-mg-yt4" secondAttribute="top" id="oLz-T3-4Fj"/>
+                            <constraint firstAttribute="bottom" secondItem="q1X-Lk-hDO" secondAttribute="bottom" id="otH-td-WCN"/>
+                            <constraint firstItem="U5K-wh-gKr" firstAttribute="leading" secondItem="KTf-mg-yt4" secondAttribute="leading" id="vpL-w4-ggb"/>
+                            <constraint firstAttribute="trailing" secondItem="q1X-Lk-hDO" secondAttribute="trailing" id="wn5-AB-eYR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="3A5-SR-70U" id="kgc-cT-h6s"/>
+                        <outlet property="unibeamImageView" destination="q1X-Lk-hDO" id="ylX-8L-bu6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nRz-tl-eQ8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349.27536231884062" y="218.47826086956525"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arcReactor" width="612" height="792"/>
+        <image name="uniBeamShadow" width="612" height="792"/>
+    </resources>
+</document>
