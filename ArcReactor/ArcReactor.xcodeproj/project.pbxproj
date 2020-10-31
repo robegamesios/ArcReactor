@@ -16,6 +16,7 @@
 		56E2FBEB1DC41C560057CC3B /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2FBE91DC41C560057CC3B /* UIView+Glow.m */; };
 		56E2FBED1DC41CA80057CC3B /* repulsor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 56E2FBEC1DC41CA80057CC3B /* repulsor.mp3 */; };
 		56E2FBF01DC421990057CC3B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E2FBEF1DC421990057CC3B /* AVFoundation.framework */; };
+		A625572D254D24BE00375DC0 /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = A625572C254D24BE00375DC0 /* logo.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		56E2FBE91DC41C560057CC3B /* UIView+Glow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Glow.m"; sourceTree = "<group>"; };
 		56E2FBEC1DC41CA80057CC3B /* repulsor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = repulsor.mp3; sourceTree = "<group>"; };
 		56E2FBEF1DC421990057CC3B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A625572C254D24BE00375DC0 /* logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = logo.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				56E2FBD61DC41B740057CC3B /* ViewController.m */,
 				56E2FBD81DC41B740057CC3B /* Main.storyboard */,
 				56E2FBDB1DC41B740057CC3B /* Assets.xcassets */,
+				A625572C254D24BE00375DC0 /* logo.svg */,
 				56E2FBDD1DC41B740057CC3B /* LaunchScreen.storyboard */,
 				56E2FBE01DC41B740057CC3B /* Info.plist */,
 				56E2FBCF1DC41B740057CC3B /* Supporting Files */,
@@ -169,6 +172,7 @@
 			files = (
 				56E2FBED1DC41CA80057CC3B /* repulsor.mp3 in Resources */,
 				56E2FBDF1DC41B740057CC3B /* LaunchScreen.storyboard in Resources */,
+				A625572D254D24BE00375DC0 /* logo.svg in Resources */,
 				56E2FBDC1DC41B740057CC3B /* Assets.xcassets in Resources */,
 				56E2FBDA1DC41B740057CC3B /* Main.storyboard in Resources */,
 			);
